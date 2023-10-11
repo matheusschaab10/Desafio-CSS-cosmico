@@ -1,0 +1,109 @@
+ @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;700&display=swap');
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family:'Pixelify Sans';
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/06/Espa%C3%A7o_Sideral.png);
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h1 {
+   margin: 2.5rem; 
+}
+
+nav ul {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2.5rem;
+}
+
+a {
+    color: white;
+}
+
+
+#tabela table{
+    display: flexbox;flex-direction: column;
+    justify-content: center;
+    width: 40rem;
+    padding: .9375rem;
+    border-collapse: collapse;
+    border: 1px solid white;
+    
+
+}
+
+table,th,td,tr {
+    box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #e60073fd, 0 0 5px #e60073, 0 0 5px #e60073, 0 0 5px #e60073, 0 0 40px #e4260d54;
+    padding: .9375rem;
+}
+
+#sobre {
+    margin-bottom: 1rem;
+}
+
+#sobre, #tabela, #cards {
+    background-color: rgba(255, 255, 255, 0.699) ;
+    color: black;
+    border-radius: 1.25rem;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    border: .3125rem solid white;
+    box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #e6007354, 0 0 5px #e6007370, 0 0 5px #e60073, 0 0 5px #e60073, 0 0 60px #e60073;
+    width: 60rem;
+}
+
+#depoimentos, #contato {
+    background-image: url(./x7MRCCHj_400x400.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20rem;
+    height: 20rem;
+    color: white;
+    text-align: center;
+    border-radius: 1.25rem;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    border: .3125rem solid white;
+    box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #e6007354, 0 0 5px #e6007370, 0 0 5px #e60073, 0 0 5px #e60073, 0 0 40px #e60073;
+}
+
+#form {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+#cosmic {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
